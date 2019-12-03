@@ -1,11 +1,11 @@
 <?php
-// require_once 'App/Cars/Factories/ImprezaFactory.php';
-namespace App;
+// require_once 'AbstractFactory/Cars/Factories/ImprezaFactory.php';
+namespace AbstractFactory;
 
 require_once $_SERVER['DOCUMENT_ROOT'].'/vendor/autoload.php';
 require_once 'config.php';
 
-use App\Cars\Factories\ImprezaFactory;
+use AbstractFactory\Cars\Factories\ImprezaFactory;
 
 $car_models = [
     1 => "Impreza",

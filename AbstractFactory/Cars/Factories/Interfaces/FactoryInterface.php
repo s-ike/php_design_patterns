@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Cars\Factories\Interfaces;
+namespace AbstractFactory\Cars\Factories\Interfaces;
 
 interface FactoryInterface
 {

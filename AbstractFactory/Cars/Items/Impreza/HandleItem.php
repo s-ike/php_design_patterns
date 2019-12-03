@@ -1,6 +1,6 @@
 <?php
 
-namespace App\Cars\Items\Impreza;
+namespace AbstractFactory\Cars\Items\Impreza;
 
 class HandleItem
 {

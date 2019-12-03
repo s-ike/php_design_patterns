@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Cars\Products\Interfaces;
+namespace AbstractFactory\Cars\Products\Interfaces;
 
-interface HandleInterface
+interface EngineInterface
 {
     public function partList();
     public function assembly();

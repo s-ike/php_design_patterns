@@ -1,9 +1,9 @@
 <?php
 
-namespace App\Cars\Products\Impreza;
+namespace AbstractFactory\Cars\Products\Impreza;
 
-use App\Cars\Products\Interfaces\HandleInterface;
-use App\Cars\Items\Impreza\HandleItem;
+use AbstractFactory\Cars\Products\Interfaces\HandleInterface;
+use AbstractFactory\Cars\Items\Impreza\HandleItem;
 
 class ImprezaHandle implements HandleInterface
 {

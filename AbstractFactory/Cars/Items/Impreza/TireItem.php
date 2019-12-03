@@ -1,8 +1,8 @@
 <?php
 
-namespace App\Cars\Items\Impreza;
+namespace AbstractFactory\Cars\Items\Impreza;
 
-class EngineItem
+class TireItem
 {
     private $id;
     private $name;

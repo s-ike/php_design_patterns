@@ -1,11 +1,11 @@
 <?php
 
-namespace App\Cars\Products\Impreza;
+namespace AbstractFactory\Cars\Products\Impreza;
 
-use App\Cars\Products\Interfaces\EngineInterface;
-use App\Cars\Items\Impreza\EngineItem;
+use AbstractFactory\Cars\Products\Interfaces\TireInterface;
+use AbstractFactory\Cars\Items\Impreza\TireItem;
 
-class ImprezaEngine implements EngineInterface
+class ImprezaTire implements TireInterface
 {
     protected $model;
     protected $item;
@@ -14,17 +14,17 @@ class ImprezaEngine implements EngineInterface
     public function __construct()
     {
         $this->model = 'Impreza';
-        $this->item = 'Engine';
+        $this->item = 'Tire';
 
         $this->records = array(
             1 => array(
                 'id'    => 1,
-                'name'  => "Engine Parts 01 for $this->model",
+                'name'  => "Tire for $this->model",
                 'model' => $this->model
             ),
             2 => array(
                 'id'    => 2,
-                'name'  => "Engine Parts 02 for $this->model",
+                'name'  => "Wheel for $this->model",
                 'model' => $this->model
             ),
         );
@@ -38,7 +38,7 @@ class ImprezaEngine implements EngineInterface
         $part_list = [];
         foreach ($part_map as $parts) {
             if ($parts['model'] === $this->model) {
-                $part_list[] = new EngineItem(
+                $part_list[] = new TireItem(
                     $parts['id'], $parts['name'], $parts['model']
                 );
             }
