@@ -3,7 +3,8 @@
         "psr-4": {
             "AbstractFactory\\": "AbstractFactory/",
             "Builder\\": "Builder/",
-            "FactoryMethod\\": "FactoryMethod/"
+            "FactoryMethod\\": "FactoryMethod/",
+            "Prototype\\": "Prototype/"
         }
     }
 }
