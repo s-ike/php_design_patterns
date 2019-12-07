@@ -5,7 +5,8 @@
             "Builder\\": "Builder/",
             "FactoryMethod\\": "FactoryMethod/",
             "Prototype\\": "Prototype/",
-            "Singleton\\": "Singleton/"
+            "Singleton\\": "Singleton/",
+            "Adapter\\": "Adapter/"
         }
     }
 }
