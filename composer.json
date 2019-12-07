@@ -4,7 +4,8 @@
             "AbstractFactory\\": "AbstractFactory/",
             "Builder\\": "Builder/",
             "FactoryMethod\\": "FactoryMethod/",
-            "Prototype\\": "Prototype/"
+            "Prototype\\": "Prototype/",
+            "Singleton\\": "Singleton/"
         }
     }
 }
