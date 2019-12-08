@@ -6,7 +6,8 @@
             "FactoryMethod\\": "FactoryMethod/",
             "Prototype\\": "Prototype/",
             "Singleton\\": "Singleton/",
-            "Adapter\\": "Adapter/"
+            "Adapter\\": "Adapter/",
+            "Bridge\\": "Bridge/"
         }
     }
 }
