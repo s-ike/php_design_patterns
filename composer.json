@@ -7,7 +7,8 @@
             "Prototype\\": "Prototype/",
             "Singleton\\": "Singleton/",
             "Adapter\\": "Adapter/",
-            "Bridge\\": "Bridge/"
+            "Bridge\\": "Bridge/",
+            "Composite\\": "Composite/"
         }
     }
 }
