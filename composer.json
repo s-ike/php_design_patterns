@@ -9,7 +9,8 @@
             "Adapter\\": "Adapter/",
             "Bridge\\": "Bridge/",
             "Composite\\": "Composite/",
-            "Decorator\\": "Decorator/"
+            "Decorator\\": "Decorator/",
+            "Facade\\": "Facade/"
         }
     }
 }
