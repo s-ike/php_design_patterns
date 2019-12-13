@@ -11,7 +11,8 @@
             "Composite\\": "Composite/",
             "Decorator\\": "Decorator/",
             "Facade\\": "Facade/",
-            "Flyweight\\": "Flyweight/"
+            "Flyweight\\": "Flyweight/",
+            "Proxy\\": "Proxy/"
         }
     }
 }
