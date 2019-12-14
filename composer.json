@@ -15,7 +15,8 @@
             "Decorator\\": "Decorator/",
             "Facade\\": "Facade/",
             "Flyweight\\": "Flyweight/",
-            "Proxy\\": "Proxy/"
+            "Proxy\\": "Proxy/",
+            "ChainOfResponsibility\\": "ChainOfResponsibility/"
         }
     }
 }
