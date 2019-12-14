@@ -1,4 +1,7 @@
 {
+    "name": "s-ike/php_design_patterns",
+    "description": "Design patterns Design patterns written using PHP",
+    "license": "MIT",
     "autoload": {
         "psr-4": {
             "AbstractFactory\\": "AbstractFactory/",
