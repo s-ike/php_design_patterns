@@ -16,7 +16,8 @@
             "Facade\\": "Facade/",
             "Flyweight\\": "Flyweight/",
             "Proxy\\": "Proxy/",
-            "ChainOfResponsibility\\": "ChainOfResponsibility/"
+            "ChainOfResponsibility\\": "ChainOfResponsibility/",
+            "Command\\": "Command"
         }
     }
 }
