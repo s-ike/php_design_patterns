@@ -17,7 +17,8 @@
             "Flyweight\\": "Flyweight/",
             "Proxy\\": "Proxy/",
             "ChainOfResponsibility\\": "ChainOfResponsibility/",
-            "Command\\": "Command"
+            "Command\\": "Command/",
+            "Interpreter\\": "Interpreter/"
         }
     }
 }
