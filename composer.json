@@ -18,7 +18,9 @@
             "Proxy\\": "Proxy/",
             "ChainOfResponsibility\\": "ChainOfResponsibility/",
             "Command\\": "Command/",
-            "Interpreter\\": "Interpreter/"
+            "Interpreter\\": "Interpreter/",
+            "Iterator\\": "Iterator/",
+            "IteratorUsingPhpSpl\\": "IteratorUsingPhpSpl/"
         }
     }
 }
