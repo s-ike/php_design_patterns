@@ -20,7 +20,8 @@
             "Command\\": "Command/",
             "Interpreter\\": "Interpreter/",
             "Iterator\\": "Iterator/",
-            "IteratorUsingPhpSpl\\": "IteratorUsingPhpSpl/"
+            "IteratorUsingPhpSpl\\": "IteratorUsingPhpSpl/",
+            "Mediator\\": "Mediator"
         }
     }
 }
