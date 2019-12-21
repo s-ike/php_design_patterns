@@ -22,7 +22,8 @@
             "Iterator\\": "Iterator/",
             "IteratorUsingPhpSpl\\": "IteratorUsingPhpSpl/",
             "Mediator\\": "Mediator",
-            "Memento\\": "Memento"
+            "Memento\\": "Memento",
+            "MediatorMemento\\": "MediatorMemento"
         }
     }
 }
