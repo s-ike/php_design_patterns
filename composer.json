@@ -24,7 +24,8 @@
             "Mediator\\": "Mediator",
             "Memento\\": "Memento",
             "MediatorMemento\\": "MediatorMemento",
-            "Observer\\": "Observer"
+            "Observer\\": "Observer",
+            "MediatorMementoObserver\\": "MediatorMementoObserver"
         }
     }
 }
