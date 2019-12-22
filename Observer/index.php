@@ -13,7 +13,7 @@ if (isset($_POST['comment'])) {
     $board = new Board();
     $board->addObserver(new LoggingListener());
     $board->addObserver(new MessageListener());
-    $board->addItem('commnet', $_POST['comment']);
+    $board->addItem('comment', $_POST['comment']);
     $notifications = $board->getResults();
 }
 

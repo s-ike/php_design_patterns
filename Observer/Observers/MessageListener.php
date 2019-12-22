@@ -10,6 +10,6 @@ class MessageListener implements BoardObserverInterface
     public function update(Board $board) :string
     {
         $items = $board->getItems();
-        return sprintf('Success: Add "%s"', $items['commnet']);
+        return sprintf('Success: Add "%s"', $items['comment']);
     }
 }
