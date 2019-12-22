@@ -23,7 +23,8 @@
             "IteratorUsingPhpSpl\\": "IteratorUsingPhpSpl/",
             "Mediator\\": "Mediator",
             "Memento\\": "Memento",
-            "MediatorMemento\\": "MediatorMemento"
+            "MediatorMemento\\": "MediatorMemento",
+            "Observer\\": "Observer"
         }
     }
 }
