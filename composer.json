@@ -28,7 +28,8 @@
             "MediatorMementoObserver\\": "MediatorMementoObserver/",
             "State\\": "State/",
             "Strategy\\": "Strategy/",
-            "TemplateMethod\\": "TemplateMethod/"
+            "TemplateMethod\\": "TemplateMethod/",
+            "Visitor\\": "Visitor/"
         }
     }
 }
