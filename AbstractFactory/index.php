@@ -15,7 +15,7 @@ $target = $car_models[1];
 
 if ($target === 'Impreza') {
     $model = new ImprezaFactory();
-} else if (false/* 別の車種 */) {
+} elseif (false/* 別の車種 */) {
     // 別の車種モデル
 }
 ?>
@@ -26,9 +26,10 @@ if ($target === 'Impreza') {
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Document</title>
+    <title>Abstract Factory</title>
 </head>
 <body>
+    <h1>Abstract Factory</h1>
     <?php
     echo sprintf(
         "<h1>Car Model：%s</h1>",

@@ -38,9 +38,7 @@ class ImprezaTire implements TireInterface
         $part_list = [];
         foreach ($part_map as $parts) {
             if ($parts['model'] === $this->model) {
-                $part_list[] = new TireItem(
-                    $parts['id'], $parts['name'], $parts['model']
-                );
+                $part_list[] = new TireItem($parts['id'], $parts['name'], $parts['model']);
             }
         }
         return $part_list;
