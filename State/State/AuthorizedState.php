@@ -2,7 +2,6 @@
 
 namespace State\State;
 
-use Exception;
 use State\State\UnauthorizedState;
 use State\State\Interfaces\UserStateInterface;
 

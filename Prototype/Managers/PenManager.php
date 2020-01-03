@@ -21,7 +21,7 @@ class PenManager
     public function create(string $protoname) :PenProduct
     {
         if (! array_key_exists($protoname, $this->pen_list)) {
-            throw new Exception(sprintf('No registration with the requested %s name exists.', $protoname));
+            throw new \Exception(sprintf('No registration with the requested %s name exists.', $protoname));
         }
         $product = $this->pen_list[$protoname];
         return $product->createClone();
